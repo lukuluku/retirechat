@@ -103,12 +103,4 @@ Advisor mode — separate system prompt optimized for advisor workflows (meeting
 Author
 Adedotun Adebiaye — Senior Product Manager, AI & Data Platforms
 LinkedIn · GitHub
-RetireChat is a portfolio project demonstrating applied AI product development in regulated financial services. It is not affiliated with any financial institution and does not provide financial advice.git add README.md
-git commit -m "Add README with PM Notes and decision framework"
-git push mine HEAD:main
-git add README.md
-git commit -m "Add README with PM Notes and decision framework"
-git push mine HEAD:main
-git status
-git log --oneline -5
-git log --oneline -5
+
