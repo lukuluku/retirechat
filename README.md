@@ -19,24 +19,6 @@ Compliance guardrail — model explains concepts and rules; never prescribes per
 Disclaimer footer — persistent "not financial advice" notice on every session
 Typing indicator — animated dots signal model response in progress
 
-
-Setup
-bashgit clone https://github.com/lukuluku/retirechat.git
-cd retirechat
-npm install
-Create a .env file in the project root:
-VITE_ANTHROPIC_API_KEY=your_api_key_here
-Run locally:
-bashnpm run dev
-Open http://localhost:5173.
-
-Note: Never commit your .env file. It is included in .gitignore.
-
-
-Deploy to Vercel
-bashnpx vercel --prod
-Add VITE_ANTHROPIC_API_KEY as an environment variable in your Vercel project settings, then redeploy.
-
 PM Notes
 This section documents the product decisions behind RetireChat — the reasoning, tradeoffs, and acceptance criteria applied at each decision point.
 
